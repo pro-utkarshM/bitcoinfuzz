@@ -1,0 +1,11 @@
+[package]
+name = "rust_block"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rustblock"
+crate-type = ["staticlib"]
+
+[dependencies]
+rust-bitcoin = "0.29"
